@@ -1,0 +1,12 @@
+#include <conio.h>
+#include <graphics.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <dos.h>
+
+main()
+{
+    int ga,gm;
+    ga=DETECT;
+    gm=DETECT;
+    initgraph(&ga,&gm,"");
